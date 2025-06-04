@@ -3142,3 +3142,15 @@ input, select, textarea {
 				}
 
 	}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
