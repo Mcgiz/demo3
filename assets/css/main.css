@@ -3143,14 +3143,11 @@ input, select, textarea {
 
 	}
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
-
-.box img {
-    width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
+/* Custom image icon style */
+.features .box img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem auto;
 }
