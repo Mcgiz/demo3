@@ -3151,3 +3151,10 @@ input, select, textarea {
     display: block;
     margin: 0 auto 1rem auto;
 }
+
+iframe {
+	max-width: 100%;
+	border-radius: 12px;
+	display: block;
+	margin: 0 auto;
+}
